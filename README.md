@@ -1,4 +1,4 @@
-# Jin's Game Result Tracker Overlay:
+# Jin's Game Result Tracker Overlay (Adapted For Limit Break Tourneys):
 
 - Disclaimer: The boxes do not work when both players have the exact same information (name, sponsor, Twitter handle, pronouns, etc.)!
   - This is because player info is used to detect a swap. When both players' info are the same, the program thinks a swap has occurred whenever there is an update.
