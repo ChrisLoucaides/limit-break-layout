@@ -1,5 +1,8 @@
 # Jin's Game Result Tracker Overlay (Adapted For Limit Break Tourneys):
 
+<img width="828" height="469" alt="image" src="https://github.com/user-attachments/assets/dd4d0cdc-aca8-4d79-a228-212fa1d2cef5" />
+
+
 - Disclaimer: The boxes do not work when both players have the exact same information (name, sponsor, Twitter handle, pronouns, etc.)!
   - This is because player info is used to detect a swap. When both players' info are the same, the program thinks a swap has occurred whenever there is an update.
   - Therefore, it is best to set the players' info before changing the score, match, or phase.
