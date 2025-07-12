@@ -33,16 +33,32 @@ body {
   left: 460px;
   flex-direction: row;
   border: #18181b 3px solid;
-  background: #f70fff;
+  background:
+          repeating-linear-gradient(
+                  45deg,
+                  #f70fff,
+                  #f70fff 10px,
+                  #e60ee8 10px,
+                  #e60ee8 20px
+          );
 }
+
 
 .p2.container {
   transform: skew(-20deg);
   right: 460px;
   flex-direction: row-reverse;
   border: #18181b 3px solid;
-  background: #3cc2ff;
+  background:
+          repeating-linear-gradient(
+                  -45deg,
+                  #3cc2ff,
+                  #3cc2ff 8px,
+                  #2ba6da 8px,
+                  #2ba6da 16px
+          );
 }
+
 
 .name {
   display: flex;
