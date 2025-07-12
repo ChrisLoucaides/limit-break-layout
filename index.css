@@ -54,16 +54,19 @@ body {
   width: 100%;
   flex-direction: column;
   overflow: hidden;
+
   color: var(--text-color);
   word-spacing: 2px;
 }
 
 .p1 .name {
+  text-shadow: #000000 1px 0 10px;
   transform: skew(-20deg);
   margin-left: 15px;
 }
 
 .p2 .name {
+  text-shadow: #000000 1px 0 10px;
   transform: skew(20deg);
   margin-right: 15px;
 }
@@ -234,7 +237,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 8px;
+  border-radius: 5px;
   height: 30px;
   width: 45px;
 }
