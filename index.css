@@ -23,6 +23,7 @@ body {
   justify-content: center;
   box-sizing: border-box;
   background: var(--bg-color);
+  border: #18181b 3px solid;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -31,12 +32,16 @@ body {
   transform: skew(20deg);
   left: 410px;
   flex-direction: row;
+  border: #18181b 3px solid;
+  background: #f70fff;
 }
 
 .p2.container {
   transform: skew(-20deg);
   right: 410px;
   flex-direction: row-reverse;
+  border: #18181b 3px solid;
+  background: #3cc2ff;
 }
 
 .name {
@@ -99,11 +104,11 @@ body {
 
 .logo {
   position: absolute;
-  top: -5px;
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 130px;
-  height: 130px;
+  width: 230px;
+  height: 230px;
   background-image: url("../limit-break.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -174,6 +179,7 @@ body {
 .p1 .score {
   color: #ffffff;
   transform: skew(-20deg);
+  background: #18181b;
 }
 
 .p1 .score_container {
@@ -186,6 +192,7 @@ body {
 .p2 .score {
   color: #ffffff;
   transform: skew(20deg);
+  background: #18181b;
 }
 
 .p2 .score_container {
@@ -197,23 +204,13 @@ body {
 }
 
 .p1 .sponsor {
-  /* For gradient color */
-  background: linear-gradient(
-    90deg,
-    #f70fff 0%,
-    var(--text-color) 200%
-  );
+  background: #18181b;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .p2 .sponsor {
-  /* For gradient color */
-  background: linear-gradient(
-    90deg,
-    #3cc2ff 0%,
-    var(--text-color) 200%
-  );
+  background: #18181b;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -245,7 +242,7 @@ body {
 .chips {
   display: flex;
   position: absolute;
-  top: 4px;
+  top: 200px;
   width: 881px;
   height: 30px;
   align-content: center;
@@ -256,7 +253,7 @@ body {
 .under_chips {
   display: flex;
   position: absolute;
-  top: 4px;
+  top: 200px;
   width: 881px;
   height: 30px;
   align-content: center;
@@ -319,6 +316,7 @@ body {
 }
 
 .p2.under_chips .chip .text:not(.text_empty) {
+  opacity: 0;
   margin-right: 4px;
   background: #3cc2ff;
 }
@@ -388,6 +386,7 @@ body {
 }
 
 .score_boxes {
+  opacity: 0;
   top: 114px;
   left: 50%;
   transform: translateX(-50%);
