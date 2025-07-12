@@ -177,7 +177,7 @@ body {
 }
 
 .p1 .score_container {
-  right: 0px;
+  transform: translateX(-430px);
   margin-left: 15px;
   color: #f70fff;
   background: #f70fff;
@@ -189,6 +189,7 @@ body {
 }
 
 .p2 .score_container {
+  transform: translateX(430px);
   left: 0px;
   margin-right: 15px;
   color: #3cc2ff;
