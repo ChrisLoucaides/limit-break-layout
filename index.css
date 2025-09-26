@@ -458,18 +458,6 @@ body {
   -webkit-mask-position: center;
 }
 
-.p1.bg {
-  left: 0;
-  -webkit-mask-image: url("./P1CameraBorder.png");
-  background: #f70fff;
-}
-
-.p2.bg {
-  right: 0;
-  -webkit-mask-image: url("./P2CameraBorder.png");
-  background: #3cc2ff;
-}
-
 .p1 .tsh-center-image {
   transform: skew(-20deg);
 }
